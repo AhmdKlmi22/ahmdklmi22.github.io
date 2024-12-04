@@ -261,6 +261,136 @@ nav .menu a:hover {
   border-top-right-radius: 50%;
 }
 
+#education {
+  padding: 60px 20px;
+  background: linear-gradient(to right, rgba(8, 46, 87, 0.8), rgba(35, 69, 129, 0.8)), url(path-to-your-background-image.jpg) no-repeat center center / cover;
+  color: #ffffff;
+  text-align: center;
+  border-radius: 15px;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.3);
+  position: relative;
+  overflow: hidden;
+}
+
+#skills {
+  padding: 50px 0;
+  background-color: #04103f;
+  text-align: center;
+  color: #fff;
+}
+.skills_header h2 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+.skills_content {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.skill_item {
+  width: 200px;
+  margin: 10px;
+}
+.skill_item h3 {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+.progress_bar {
+  background-color: #ddd;
+  border-radius: 20px;
+  overflow: hidden;
+}
+.progress {
+  background-color: #4caf50;
+  height: 20px;
+  line-height: 20px;
+  color: #fff;
+  text-align: center;
+  border-radius: 20px 0 0 20px;
+}
+#material {
+  padding: 50px 0;
+  background-color: #f5f5f5;
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+.material_header h2 {
+  font-size: 2.5em;
+  color: #333;
+  margin-bottom: 30px;
+}
+.material_content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.material_card {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 10px;
+  padding: 20px;
+  width: 300px;
+  text-align: left;
+}
+.material_card h3 {
+  font-size: 1.5em;
+  color: #333;
+  margin-bottom: 15px;
+}
+.material_card p {
+  font-size: 1em;
+  color: #666;
+  line-height: 1.5;
+}
+.progress_bar {
+  background-color: #ddd;
+  border-radius: 25px;
+  overflow: hidden;
+  margin-top: 10px;
+}
+.progress {
+  background-color: #4caf50;
+  height: 20px;
+  line-height: 20px;
+  color: #fff;
+  text-align: center;
+  border-radius: 25px 0 0 25px;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #1a1a2e;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+}
+
+#cv {
+  text-align: center;
+  padding: 50px 20px;
+}
+.cv-header h2 {
+  font-size: 2.5em;
+  color: #fff;
+  margin-bottom: 20px;
+}
+.cv-content a {
+  display: inline-block;
+  padding: 10px 20px;
+  margin-top: 20px;
+  font-size: 1em;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  cursor: pointer;
+}
+.cv-content a:hover {
+  background-color: #0056b3;
+}
 /*
 |-------------------------------------------------
 |       GALLERY
