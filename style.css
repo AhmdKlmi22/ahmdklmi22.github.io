@@ -396,6 +396,45 @@ body {
 |       GALLERY
 |-------------------------------------------------
 */
+/* Gaya tombol untuk Application Letters */
+.AL-button {
+  background-color: #4CAF50; /* Warna latar belakang */
+  color: white; /* Warna teks */
+  padding: 14px 20px; /* Padding */
+  text-align: center; /* Pengaturan teks */
+  text-decoration: none; /* Menghapus garis bawah */
+  display: inline-block; /* Tampilan inline block */
+  font-size: 16px; /* Ukuran font */
+  margin: 4px 2px; /* Margin */
+  cursor: pointer; /* Kursor pointer */
+  border-radius: 8px; /* Radius border */
+  transition: background-color 0.3s ease; /* Efek transisi */
+}
+
+.AL-button:hover {
+  background-color: #45a049; /* Warna latar belakang saat dihover */
+}
+
+/* Gaya tombol untuk Application Letters */
+.essay-button {
+  background-color: #4CAF50; /* Warna latar belakang */
+  color: white; /* Warna teks */
+  padding: 14px 20px; /* Padding */
+  text-align: center; /* Pengaturan teks */
+  text-decoration: none; /* Menghapus garis bawah */
+  display: inline-block; /* Tampilan inline block */
+  font-size: 16px; /* Ukuran font */
+  margin: 4px 2px; /* Margin */
+  cursor: pointer; /* Kursor pointer */
+  border-radius: 8px; /* Radius border */
+  transition: background-color 0.3s ease; /* Efek transisi */
+}
+
+.essay-button:hover {
+  background-color: #45a049; /* Warna latar belakang saat dihover */
+}
+
+
 
 #gallery .gallery_header {
   width: 16rem;
